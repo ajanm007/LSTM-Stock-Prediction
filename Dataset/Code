@@ -1,0 +1,8 @@
+import yfinance as yf
+
+ticker = "AAPL"
+start_date = "2010-01-01"
+end_date = "2023-01-01"
+
+# Download the data
+data = yf.download(ticker, start=start_date, end=end_date)
